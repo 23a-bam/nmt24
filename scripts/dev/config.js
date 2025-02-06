@@ -1,4 +1,4 @@
-let admMode = 0;
+let admMode = 1;
 // 1 - автоматично вибирати 2 перших чекбокса
 // 0 - автоматично НЕ вибирати чекбокси
 
@@ -12,7 +12,7 @@ let showQuestionInProfile = 1;
 let showUserAnswersInProfile = 1;
 
 //Показувати правильні результати в профілі
-let showCorrectAnswersInProfile = 0;
+let showCorrectAnswersInProfile = 1;
 
 // Кількість iframe на youtube.html
 let countOfStreams = 0;
