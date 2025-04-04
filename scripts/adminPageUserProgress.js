@@ -10,13 +10,9 @@ async function adminLogin() {
   if (!loginForm) return;
   let authResponse = await impHttp.isAuth();
   if (authResponse.status == 200) {
-    if (window?.userInfo?.roles?.includes("ADMIN")) {
-      loginForm.remove();
-      adminPage();
-    } else {
-      location.href = importConfig.client_url;
-      alert("В вас немає прав адміністратора");
-    }
+    loginForm.remove();
+    adminPage();
+  }
 
   } else {
     let button = loginForm.querySelector(".admin-page__login-submit");
