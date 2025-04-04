@@ -1,3 +1,3 @@
-link - https://shatvm.github.io/nmt24/
+link - https://23a-bam.github.io/nmt24/
 
 
