@@ -14,7 +14,7 @@ async function adminLogin() {
     adminPage();
   }
 
-  } else {
+  else {
     let button = loginForm.querySelector(".admin-page__login-submit");
     button.addEventListener("click", async function (e) {
       e.preventDefault();
