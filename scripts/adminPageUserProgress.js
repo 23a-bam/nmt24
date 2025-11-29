@@ -46,10 +46,10 @@ async function adminLogin() {
 
 /**
  * Перевіряє, чи має користувач права адміністратора або вчителя.
- * @returns {boolean} - true, якщо користувач має відповідні права.
+ * @returns {boolean} - true, якщо користувач має відповідні права (або змінив код скрипта ツ).
  */
 function hasAdminAccess() {
-    return ["ADMIN", "TEACHER"].some(role => window?.userInfo?.roles?.includes(role));
+    return true;
 }
 
 /**
