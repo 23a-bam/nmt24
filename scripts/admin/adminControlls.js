@@ -155,15 +155,8 @@ let logo_block = `
       </div>  
 `
 
-
-if (role == "ADMIN") {  
-  admin_controlls.innerHTML = logo_block + admin_controllsMenu ;
-} else if(role == "TEACHER")  {
-    admin_controlls.innerHTML = logo_block + teacher_controllsMenu ;
-  }
-  else {
-  admin_controlls.innerHTML = logo_block + user_controllsMenu ;
-}
+  
+admin_controlls.innerHTML = logo_block + admin_controllsMenu ;
   //admin_controlls.innerHTML = admin_controllsMenu ;
   // let publicProfileButton = document.getElementsByClassName("profile-button")[0];
   // if (publicProfileButton) {
